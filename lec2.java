@@ -57,7 +57,7 @@ public class lec2 {
 
         // Формат вывода: структурированный, абы как*
         //XMLFormatter, SimpleFormatter
-        Logger logger = Logger.getLogger(Ex0043.class.getName());
+        Logger logger = Logger.getLogger(lec2.class.getName());
         logger.setLevel(Level.INFO);
         ConsoleHandler ch = new ConsoleHandler();
         logger.addHandler(ch);
